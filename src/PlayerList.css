@@ -1,0 +1,51 @@
+#playerlist {
+    color: white;
+    list-style-type: none;
+    position: absolute;
+    left: 5%;
+    width: 200px;
+    overflow: hidden;
+    top: 30%;
+}
+
+li {
+    margin-top: 15px;
+    display: block;
+    text-align: left;
+    height: 15px;
+    padding: 10px;
+}
+
+li span {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+}
+
+.playerName {
+    overflow: hidden;
+}
+
+.playerRep {
+    width: 15px;
+    display: inline-block;
+    position: relative;
+    transform: translateY(-25%);
+    height: 100%;
+    margin-right: 15px;
+}
+
+.player.alive {
+    background-color: #cccccc55;
+}
+
+.player.disconnected {
+    background-color: #cc0a0a;
+}
+
+.score {
+    float: right;
+}
